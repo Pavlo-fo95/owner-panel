@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+  max-width: 900px; /* Ограничение ширины страницы */
+  margin: 0 auto;
+  background-color: #fff; /* Белый фон для панели */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #444;
+}
+
+/* Авторизация */
+.auth-form {
+  background-color: #ffcc99;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Ограничение ширины авторизации */
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6c757d; /* Серый фон */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.auth-form button:hover {
+  background-color: #5a6268; /* Темно-серый при наведении */
+}
+
+/* Таблицы */
+.table-wrapper {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px; /* Ограничение ширины таблиц */
+  border-radius: 10px;
+  overflow: hidden; /* Для аккуратного вида */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+table th {
+  background-color: #8b4513; /* Темно-коричневый */
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Форма администратора */
+.admin-form {
+  background-color: #ffeeba;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 400px; /* Ограничение ширины формы администратора */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-form input,
+.admin-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.admin-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745; /* Зеленый фон */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-form button:hover {
+  background-color: #218838; /* Темно-зеленый */
+}
+
+/* Центрирование */
+.center {
+  text-align: center;
+}
+
+/* Нижняя таблица */
+.workload-table {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px; /* Ограничение ширины таблицы */
+  border-radius: 10px;
+  overflow: hidden; /* Для аккуратного вида */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

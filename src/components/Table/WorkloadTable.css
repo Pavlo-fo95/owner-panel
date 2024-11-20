@@ -1,0 +1,51 @@
+.workload-table {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .workload-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  .workload-table th,
+  .workload-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .workload-table th {
+    background-color: #8b4513;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .workload-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .workload-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Стили кнопки Show */
+  .show-button {
+    padding: 5px 10px;
+    background-color: #007bff; /* Синий цвет кнопки */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .show-button:hover {
+    background-color: #0056b3; /* Темно-синий при наведении */
+    transition: background-color 0.3s ease;
+  }
